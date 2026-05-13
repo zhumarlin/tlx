@@ -1,4 +1,4 @@
-var tokenBot = '8499467436:AAGnqLpUx1fraG2nRccOaIh-13vsu0k-AX4';
+var tokenBot = '747566155:AAEuRU1Z98wv2yK5qjQwmpZfkVMKsmeqwo0';
 var chatId = '-1001491366475';
 
 function telegramSend(tokenBot, chatId) {
